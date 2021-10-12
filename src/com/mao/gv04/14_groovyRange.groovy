@@ -23,7 +23,7 @@ for(i in range){
 groovy.lang.Range
 def result = getGrade(90)
 println result
-//
+// 返回值为 string
 def getGrade(Number number){
     def result
     switch (number){
@@ -45,4 +45,3 @@ def getGrade(Number number){
     }
     return result
 }
-
